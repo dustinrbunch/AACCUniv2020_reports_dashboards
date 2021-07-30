@@ -5,6 +5,8 @@ Materials for the 2020 AACC University course -- Doing More with R: Create Your 
 ### Dustin Bunch, PhD  
 Assistant Director of Clinical Chemistry and Laboratory Informatics  
 Nationwide Children's Hospital, Columbus, OH
+Assistant Professor - Clinical
+The Ohio State University, Columbus, OH
 
 ### Daniel T. Holmes, MD  
 Department Head  
