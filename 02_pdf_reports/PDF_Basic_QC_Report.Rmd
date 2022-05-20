@@ -1,6 +1,8 @@
 ---
+title: "Basic QC Report"
+subtitle: "AACC University 2022, Doing More with R"
 author: "Dustin R. Bunch"
-date: "November 23rd, 2020"
+date: "May 20, 2022"
 geometry: margin=0.75in
 header-includes:
 - \usepackage{fancyhdr}
@@ -16,11 +18,17 @@ output:
   html_document:
     df_print: paged
 ---
+
+
+
 ```{r setup, include=FALSE}
+# Default Knitr Settings
+# This area sets the default knitr setting for each code chunk. These can be changed within each code chuck.
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 ```{r folder_structure, include=FALSE}
+# I always add these folders to my code area. It is a habit I picked up in other languages.
 dir.create("src")
 dir.create("cache")
 dir.create("data")
@@ -29,28 +37,10 @@ dir.create("plot")
 ```
 
 ```{r, pkgs_libraries, include=FALSE}
-# This code will install required packages if they are not already installed
-# This is useful for teaching but not requied
-
-### Option 1
-if (!require("knitr")) {
-   install.packages("knitr")
-   library(knitr)
-}
-if (!require("janitor")) {
-   install.packages("janitor")
-   library(janitor)
-}
-if (!require("tidyverse")) {
-   install.packages("tidyverse")
    library(tidyverse)
-}
-if (!require("kableExtra")) {
-   install.packages("kableExtra")
    library(kableExtra)
-}
-
-### Option 2
+   library(lubridate)
+   library(janitor)
    library(here)
 ```
 \hfill\break
