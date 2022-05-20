@@ -1,6 +1,4 @@
 ---
-title: "Basic QC Report"
-subtitle: "AACC University 2022, Doing More with R"
 author: "Dustin R. Bunch"
 date: "May 20, 2022"
 geometry: margin=0.75in
